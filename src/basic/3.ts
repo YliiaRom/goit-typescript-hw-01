@@ -1,3 +1,4 @@
-let valueLiteral: string | number;
-let valueLiteralSecond: "enable" | "disable";
-export {};
+export let valueLiteral: string | number;
+export let valueLiteralSecond: "enable" | "disable";
+valueLiteral = 10;
+valueLiteralSecond = "enable";

@@ -27,4 +27,4 @@ const bottom: Pick<AllType, "position" | "weight"> = {
   weight: 20,
 };
 
-const result = compare(top, bottom);
+// const result = compare(top, bottom);

@@ -1,3 +1,2 @@
-let person: [string, number];
+export let person: [string, number];
 person = ["Max", 21];
-export {};
