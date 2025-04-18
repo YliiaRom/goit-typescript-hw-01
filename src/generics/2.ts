@@ -5,7 +5,7 @@ type AllType = {
   weight: number;
 };
 
-function compare<
+export default function compare<
   T extends Pick<AllType, "name" | "color">,
   S extends Pick<AllType, "position" | "weight">
 >(top: T, bottom: S): AllType {
@@ -17,12 +17,12 @@ function compare<
   };
 }
 
-const top: Pick<AllType, "name" | "color"> = {
+export const top: Pick<AllType, "name" | "color"> = {
   name: "x",
   color: "#fff",
 };
 
-const bottom: Pick<AllType, "position" | "weight"> = {
+export const bottom: Pick<AllType, "position" | "weight"> = {
   position: 20,
   weight: 20,
 };
